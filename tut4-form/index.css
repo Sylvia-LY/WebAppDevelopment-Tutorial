@@ -1,0 +1,50 @@
+.hint {
+    display: none;
+    color: red;
+}
+
+#contact {
+    display: block;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    padding-top: 10em;
+}
+
+#error h2 {
+    color: #ff0000;
+}
+
+#error {
+    display: none;
+    text-align: center;
+    padding-top: 10em;
+}
+
+#success {
+    display: none;
+    text-align: center;
+    padding-top: 10em;
+}
+
+textarea {
+    height: 10em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+fieldset {
+    margin: 3em;
+    padding: 2em;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

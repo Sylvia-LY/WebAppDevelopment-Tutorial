@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+    <title>Contact form</title>
+</head>
+
+<body>
+    <!-- form -->
+
+    <div id="contact">
+        <form>
+            <fieldset>
+
+                <legend>Leave a message and we'll contact you shortly!</legend>
+
+                <label for="email">Email*</label>
+                <span id="hint_email" class="hint"> - please enter your email address</span>
+                <input id="email" type="email" />
+
+                <label for="subject">Subject*</label>
+                <span id="hint_subject" class="hint"> - please enter a subject line</span>
+                <input id="subject" type="text" />
+
+                <label for="message">Message*</label>
+                <span id="hint_message" class="hint"> - please enter a message</span>
+                <textarea id="message"></textarea>
+
+                <input type="submit" value="Send Message" />
+
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- loading -->
+    <div id="loading">
+        <img src="loading.gif" />
+    </div>
+
+    <!-- success -->
+
+    <div id="success">
+        <h2>Thank you!</h2>
+        <p><a id="reset_success" href="#">Send another message</a></p>
+    </div>
+
+    <!-- error -->
+
+    <div id="error">
+        <h2>Oops - something went wrong</h2>
+        <p><a id="reset_error" href="#">Try again</a></p>
+    </div>
+
+
+</body>
+
+</html>
