@@ -1,0 +1,17 @@
+body {
+    font: 15px MV Boli;
+}
+
+div {
+    display: block;
+    border: 1px solid #ccc;
+    margin: 1rem;
+}
+
+#my_form label, input {
+    display: block;
+}
+
+#Q5 {
+    color: red;
+}
