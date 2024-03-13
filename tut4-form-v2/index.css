@@ -1,0 +1,25 @@
+.hint {
+    display: none;
+    color: red;
+}
+
+input,
+label {
+    display: block;
+}
+
+#loading {
+    display: none;
+}
+
+#error h1 {
+    color: red;
+}
+
+#error {
+    display: none;
+}
+
+#success {
+    display: none;
+}
