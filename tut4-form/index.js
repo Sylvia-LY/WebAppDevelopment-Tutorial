@@ -59,11 +59,11 @@ window.addEventListener('load', function (evt) {
         }
 
         if (val_message.length == 0) {
-            hint_message = document.querySelector('#hint_message').style.display = 'inline';
+            document.querySelector('#hint_message').style.display = 'inline';
             fields_ok = false;
         }
         else {
-            hint_message = document.querySelector('#hint_message').style.display = 'none';
+            document.querySelector('#hint_message').style.display = 'none';
         }
 
 
